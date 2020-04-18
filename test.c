@@ -25,10 +25,12 @@
 #include "arr.h"
 #include "basic_hash_table.h"
 #include "intrusive_linked_list.h"
+#include "deque.h"
 
 int main(int argc, char **argv)
 {
     arr_test();
     hash_table_test();
     ill_test();
+    deque_test();
 }
